@@ -1,0 +1,105 @@
+html {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 600px;
+    background-color: blue;
+    
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url(https://image.freepik.com/vecteurs-libre/fond-metallique-brosse_1048-120.jpg);
+    background-color: rgb(247, 247, 247);
+    width: 400px;
+    border: solid grey 0.5px;
+    border-radius: 10px;
+    box-shadow:  0.3em 0.3em rgb(102, 121, 141)
+}
+
+.flexC {
+    display: flex;
+    
+    
+    
+
+}
+
+div {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.boxResult {
+    background-color: white;
+    border: solid grey 0.5px;
+    border-radius: 5px;
+    text-align: end;
+    width: 87%;
+    margin-left: 15px;
+    height: 30px;
+    box-shadow: inset 0.3em 0.3em rgb(184, 188, 192);
+    color: white;
+    background-image: url(https://image.freepik.com/photos-gratuite/ardoise-verte_1205-377.jpg?1);
+
+    
+}
+
+.but {
+    background-color: rgb(221, 221, 221);
+    margin: 5px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow:  0.2em 0.2em rgb(111, 136, 161);
+    background-size: cover;
+}
+.but:hover {
+    background-color: rgb(205, 205, 230);
+
+}
+
+.butS {
+    background-color: rgb(204, 199, 199);
+    margin: 5px;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow:  0.2em 0.2em rgb(111, 136, 161);
+}
+.butS:hover {
+    background-color: rgb(205, 205, 230);
+
+}
+
+
+.calculBas{
+   text-align: end;
+   position: relative;
+   top: 10px;
+   
+}
+.calculBasJournal{
+    text-align: end;
+    position: relative;
+    top:-50px;
+    font-size: 12px;
+    color: grey;
+    height: 20px;
+    background-attachment: local, scroll;
+
+ }
+ body > div > div:nth-child(6) > div:nth-child(3){
+    background-color: #4285F4;
+    margin: 5px;
+    width: 100%;
+    border-radius: 8px;
+    color: whitesmoke;
+    transition-duration: 0.2s;
+
+ }
+ body > div > div:nth-child(6) > div:nth-child(3):hover{
+    background-color: #f19780;  
+ }
