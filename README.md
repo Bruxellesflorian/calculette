@@ -30,6 +30,8 @@ Using what we know about javascript, we're going to build a simple calculator ap
 * JavaScript
 * CSS3
 
+# [Link](https://bruxellesflorian.github.io/calculette/)
+
 # What does it look like ? 
-you can click to see the incredible result
+![](https://raw.githubusercontent.com/Bruxellesflorian/calculette/master/Capture.PNG)
 
