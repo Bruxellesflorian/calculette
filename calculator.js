@@ -40,12 +40,13 @@ for (let i = 0; i < tab.length; i++) {
         flexC = document.createElement('div')
         flexC.className = "flexC"
     }
-    let touche = body.addEventListener('click', function (e) {})
+
 
     function leCalculDelaCalculetteDeFloDeLaJournee() {
         return calcBox.textContent
     }
     let cases = tab[i];
+
     switch (cases) {
         case "AC":
             button.addEventListener("click", function () {
@@ -122,13 +123,16 @@ for (let i = 0; i < tab.length; i++) {
                 calcBoxJournal.textContent += tab[i];
                 grosJournal.textContent += tab[i];
             });
+
     };
+
     body.appendChild(boxPrincipale)
     boxPrincipale.appendChild(flexC)
     flexC.appendChild(button)
+
 }
-body.addEventListener("keypress", function(e) {
-    console.log(e.code)
+body.addEventListener("keypress", function (e) {
+
     if (e.code === "Enter") {
         calcBox.textContent = leCalculDelaCalculetteDeFloDeLaJournee()
         calcBoxJournal.textContent += " = "
@@ -137,3 +141,33 @@ body.addEventListener("keypress", function(e) {
         grosJournal.textContent += calcBox.textContent = Function('return ' + calcBox.textContent)();
     }
 })
+let NumPadd = ["Numpad0","Numpad1", "Numpad2", "Numpad3", "Numpad4", "Numpad5", "Numpad6", "Numpad7", "Numpad8", "Numpad9","NumpadAdd","NumpadSubtract","NumpadDivide","NumpadDecimal"];
+for (let k = 0; k < 10; k++) {
+    body.addEventListener("keypress", function (e) {
+        if (e.code === NumPadd[k]) {
+            calcBox.textContent += k
+            calcBoxJournal.textContent += k
+            grosJournal.textContent +=  k
+        }
+        
+    })
+
+}
+// for (let z = 10; z < 14; z++) {
+//     body.addEventListener("keypress", function (a) {
+//         console.log(a.code)
+//         if (a.code === NumPadd[12]) {
+//             calcBox.textContent += "+"
+//         }
+//         if (a.code === NumPadd[12]) {
+//             calcBox.textContent += "-"
+//         }
+//         if (a.code === NumPadd[13]) {
+//             calcBox.textContent += "/"
+//         }
+//         if (a.code === NumPadd[14]) {
+//             calcBox.textContent += "*"
+//         }
+//     })
+
+// }
