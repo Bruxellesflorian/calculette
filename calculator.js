@@ -58,7 +58,8 @@ function test(){
             case "AC":
             button.addEventListener("click", function () {
                 calcBox.textContent = "";
-                calcBoxJournal.textContent = "";})
+                calcBoxJournal.textContent = "";
+            })
             break;
     
             case "=":
