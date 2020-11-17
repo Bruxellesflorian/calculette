@@ -5,7 +5,7 @@ html {
 .container {
     width: 600px;
     background-color: blue;
-    
+
 }
 
 .flex {
@@ -17,21 +17,17 @@ html {
     width: 350px;
     border: solid grey 0.5px;
     border-radius: 10px;
-    box-shadow:  0.3em 0.3em rgb(102, 121, 141)
+    box-shadow: 0.3em 0.3em rgb(102, 121, 141)
 }
 
 .flexC {
     display: flex;
-    
-    
-    
-
 }
 
 div {
     padding: 10px;
     text-align: center;
-    
+
 }
 
 .boxResult {
@@ -46,7 +42,7 @@ div {
     color: white;
     background-image: url(https://image.freepik.com/photos-gratuite/ardoise-verte_1205-377.jpg?1);
 
-    
+
 }
 
 .but {
@@ -54,9 +50,10 @@ div {
     margin: 5px;
     width: 100%;
     border-radius: 8px;
-    box-shadow:  0.2em 0.2em rgb(111, 136, 161);
+    box-shadow: 0.2em 0.2em rgb(111, 136, 161);
     background-size: cover;
 }
+
 .but:hover {
     background-color: rgb(205, 205, 230);
 
@@ -67,32 +64,35 @@ div {
     margin: 5px;
     width: 100%;
     border-radius: 3px;
-    box-shadow:  0.2em 0.2em rgb(111, 136, 161);
+    box-shadow: 0.2em 0.2em rgb(111, 136, 161);
 }
+
 .butS:hover {
     background-color: rgb(205, 205, 230);
 
 }
 
 
-.calculBas{
-   text-align: end;
-   position: relative;
-   top: 10px;
-   
-}
-.calculBasJournal{
+.calculBas {
     text-align: end;
     position: relative;
-    top:-40px;
+    top: 10px;
+
+}
+
+.calculBasJournal {
+    text-align: end;
+    position: relative;
+    top: -40px;
     font-size: 12px;
     color: grey;
     height: 5px;
     background-attachment: local, scroll;
     overflow-x: auto;
 
- }
- body > div > div:nth-child(6) > div:nth-child(3){
+}
+
+body>div>div:nth-child(6)>div:nth-child(3) {
     background-color: #4285F4;
     margin: 5px;
     width: 100%;
@@ -100,7 +100,17 @@ div {
     color: whitesmoke;
     transition-duration: 0.2s;
 
- }
- body > div > div:nth-child(6) > div:nth-child(3):hover{
-    background-color: #f19780;  
- }
+}
+
+body>div>div:nth-child(6)>div:nth-child(3):hover {
+    background-color: #f19780;
+}
+.putaHistorica{
+    width: 370px;
+    border: solid grey 0.2px;
+    border-radius: 10px;
+    position: absolute;
+    top: 450px;
+    box-shadow: 0.2em 0.2em rgb(111, 136, 161);
+    text-align: end;
+}
