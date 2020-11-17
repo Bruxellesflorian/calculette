@@ -47,9 +47,10 @@ for (let i = 0; i < tab.length; i++) {
         flexC.className = "flexC"
     }
     
-function test(){
+function leCalculDelaCalculetteDeFloDeLaJournee(){
     return  calcBox.textContent
 }
+
 
     let cases = tab[i];
         switch(cases){
@@ -61,10 +62,10 @@ function test(){
                 calcBoxJournal.textContent = "";
             })
             break;
-    
+
             case "=":
             button.addEventListener("click", function (){
-                calcBox.textContent = test()
+                calcBox.textContent = leCalculDelaCalculetteDeFloDeLaJournee()
                 calcBoxJournal.textContent += " = "
                 calcBoxJournal.textContent += calcBox.textContent=Function('return ' + calcBox.textContent)();
             });
