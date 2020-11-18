@@ -17,7 +17,8 @@ html {
     width: 350px;
     border: solid grey 0.5px;
     border-radius: 10px;
-    box-shadow: 0.3em 0.3em rgb(102, 121, 141)
+    box-shadow: 0.3em 0.3em rgb(102, 121, 141);
+    
 }
 
 .flexC {
@@ -37,7 +38,7 @@ div {
     text-align: end;
     width: 87%;
     margin-left: 15px;
-    height: 30px;
+    height: 80px;
     box-shadow: inset 0.3em 0.3em rgb(184, 188, 192);
     color: white;
     background-image: url(https://image.freepik.com/photos-gratuite/ardoise-verte_1205-377.jpg?1);
@@ -74,22 +75,27 @@ div {
 
 
 .calculBas {
-    text-align: end;
     position: relative;
-    top: 10px;
-
+    text-align: end;
+    top: 50px;
+    height: 10px;
+}
+.calculBasTransparent {
+    position: relative;
+    text-align: end;
+    top: 20px;
+    height: 10px;
 }
 
 .calculBasJournal {
-    text-align: end;
     position: relative;
+    text-align: end;
     top: -40px;
     font-size: 12px;
     color: grey;
     height: 5px;
     background-attachment: local, scroll;
     overflow-x: auto;
-
 }
 
 body>div>div:nth-child(6)>div:nth-child(3) {
@@ -105,12 +111,13 @@ body>div>div:nth-child(6)>div:nth-child(3) {
 body>div>div:nth-child(6)>div:nth-child(3):hover {
     background-color: #f19780;
 }
-.putaHistorica{
-    width: 370px;
+.Historica{
+    width: 372px;
     border: solid grey 0.2px;
     border-radius: 10px;
     position: absolute;
-    top: 450px;
+    top: 500px;
     box-shadow: 0.2em 0.2em rgb(111, 136, 161);
     text-align: end;
+   
 }
