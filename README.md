@@ -1,7 +1,6 @@
 # Let's build a calculator
 
-This exercice was made by [Florian Bertchi](https://github.com/Bruxellesflorian). :mechanical_arm: [:nerd_face:](https://www.youtube.com/watch?v=_fMmSkl3aco&ab_channel=ValentinoValentino)
-
+This exercice was made by [Florian Bertchi](https://github.com/Bruxellesflorian). :mechanical_arm: :nerd_face:
 # What was asked ?
 
 ## Let's build a calculator
@@ -12,7 +11,7 @@ Using what we know about javascript, we're going to build a simple calculator ap
 - Duration: **2-3 days**  
 - Team challenge: **solo**
 - Deadline: **18/11/2020 19:00**
-- [Submission form](https://forms.gle/UmTTfyF59kueUYhh7)
+
 
 # What did we do ?
 - Create a new repository named `calculator`
