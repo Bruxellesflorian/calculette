@@ -51,7 +51,10 @@ for (let i = 0; i < tab.length; i++) {
         flexC = document.createElement('div')
         flexC.className = "flexC"
     }
-
+    function ok(){
+        let monsieur =  calcBox.textContent
+        return monsieur / 100
+    }
 
     function calcuResult() {
         return calcBoxJournal.innerHTML
@@ -72,6 +75,15 @@ for (let i = 0; i < tab.length; i++) {
             inter = false;
             
             break;
+            case "%":
+                button.addEventListener("click", function () {
+                        ok()
+                        pointKiller = true
+                        calcBox.textContent =  ok()
+                        calcBox.innerHTML += ''
+                        calcBoxJournal.innerHTML = calcBox.innerHTML
+                  
+                })
         case ".":
             button.addEventListener("click", function () {
                 if (!pointKiller) {
