@@ -33,6 +33,7 @@ let minusKiller = false
 let diviKiller = false
 let multikiller = false
 let inter = false;
+let egual = false
 
 
 let resultat = "";
@@ -73,6 +74,7 @@ for (let i = 0; i < tab.length; i++) {
                 grosJournal.innerHTML += linebreak;
             })
             inter = false;
+            egual = false 
             
             break;
             case "%":
@@ -82,6 +84,7 @@ for (let i = 0; i < tab.length; i++) {
                         calcBox.textContent =  ok()
                         calcBox.innerHTML += ''
                         calcBoxJournal.innerHTML = calcBox.innerHTML
+                        egual = false 
                   
                 })
         case ".":
@@ -110,6 +113,7 @@ for (let i = 0; i < tab.length; i++) {
                 pointKiller = false
                 adKiller = false
                 inter = false;
+                egual = false 
                 
             })
 
@@ -136,6 +140,7 @@ for (let i = 0; i < tab.length; i++) {
                 pointKiller = false
                 adKiller = false
                 inter = false;
+                egual = false 
                 
             })
             break;
@@ -156,6 +161,7 @@ for (let i = 0; i < tab.length; i++) {
                 pointKiller = false
                 inter = false;
                 adKiller = false
+                egual = false 
                 
             })
             break;
@@ -175,6 +181,7 @@ for (let i = 0; i < tab.length; i++) {
                 minusKiller = false
                 pointKiller = false
                 inter = false;
+                egual = false 
                 
             })
             break;
@@ -190,6 +197,7 @@ for (let i = 0; i < tab.length; i++) {
                 minusKiller = false
                 diviKiller = false
                 multikiller = false
+                egual = false 
                 resultat = boxTransparente.innerHTML
                 console.log(resultat)
             
@@ -212,6 +220,7 @@ for (let i = 0; i < tab.length; i++) {
                     minusKiller = false
                     diviKiller = false
                     adKiller = false
+                    egual = false 
                 }
 
             });
@@ -224,20 +233,24 @@ for (let i = 0; i < tab.length; i++) {
     flexC.appendChild(button)
 
 }
-body.addEventListener("keypress", function (e) {
 
-    if (e.code === "Enter") {
-        let linebreak = "<br>";
-        calcBox.innerHTML = Function('return ' + calcBoxJournal.innerHTML)();
-        boxTransparente.innerHTML = calcBox.innerHTML
-        calcBox.innerHTML = ""
-        grosJournal.innerHTML += "=" + boxTransparente.innerHTML + linebreak;
-        inter = true;
-        adKiller = false
-        minusKiller = false
-        diviKiller = false
-        multikiller = false
+body.addEventListener("keypress", function (e) {
+    if(egual === false){
+        if (e.code === "Enter") {
+            let linebreak = "<br>";
+            calcBox.innerHTML = Function('return ' + calcBoxJournal.innerHTML)();
+            boxTransparente.innerHTML = calcBox.innerHTML
+            calcBox.innerHTML = ""
+            grosJournal.innerHTML += "=" + boxTransparente.innerHTML + linebreak;
+            inter = true;
+            adKiller = false
+            minusKiller = false
+            diviKiller = false
+            multikiller = false
+            egual = true 
+        }
     }
+
 })
 // let NumPadd = ["Numpad0","Numpad1", "Numpad2", "Numpad3", "Numpad4", "Numpad5", "Numpad6", "Numpad7", "Numpad8", "Numpad9","+","NumpadSubtract","NumpadDivide","NumpadDecimal"];
 // for (let k = 0; k < 10; k++) {
