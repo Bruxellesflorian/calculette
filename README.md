@@ -1,7 +1,6 @@
 # Let's build a calculator
 
-This exercice was made by [Florian Bertchi](https://github.com/Bruxellesflorian). :mechanical_arm: [:nerd_face:](https://www.youtube.com/watch?v=_fMmSkl3aco&ab_channel=ValentinoValentino)
-
+This exercice was made by [Florian Bertchi](https://github.com/Bruxellesflorian). :mechanical_arm: :nerd_face:
 # What was asked ?
 
 ## Let's build a calculator
