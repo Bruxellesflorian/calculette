@@ -11,7 +11,7 @@ Using what we know about javascript, we're going to build a simple calculator ap
 - Duration: **2-3 days**  
 - Team challenge: **solo**
 - Deadline: **18/11/2020 19:00**
-- [Submission form](https://forms.gle/UmTTfyF59kueUYhh7)
+
 
 # What did we do ?
 - Create a new repository named `calculator`
