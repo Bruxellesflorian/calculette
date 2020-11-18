@@ -186,7 +186,9 @@ for (let i = 0; i < tab.length; i++) {
             })
             break;
         case "=":
+            
             button.addEventListener("click", function () {
+                if(egual === false){
                 let linebreak = "<br>";
                 calcBox.innerHTML = Function('return ' + calcBoxJournal.innerHTML)();
                 boxTransparente.innerHTML = calcBox.innerHTML
@@ -197,9 +199,9 @@ for (let i = 0; i < tab.length; i++) {
                 minusKiller = false
                 diviKiller = false
                 multikiller = false
-                egual = false 
+                egual = true 
                 resultat = boxTransparente.innerHTML
-                console.log(resultat)
+                console.log(resultat)}
             
             });
             break;
