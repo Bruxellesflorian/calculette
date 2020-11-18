@@ -20,7 +20,16 @@ Using what we know about javascript, we're going to build a simple calculator ap
 - You have to generate a calculator layout with a display on top and all the digits buttons (0 to 9), the operation buttons (`+`, `-`, `x`, `/`), a button to calculate the result (`=`) and a button to clear the display (`C`)
 - Clicking on the button should emulate the behavior of a calculator.
 
+# What are the bugs?
 
+Brackets do not work with percentages.
+Number keys are not assigned.
+
+# What works?
+
+The key entered gives the result 
+The calculation log works
+The percentage works
 
 
 
